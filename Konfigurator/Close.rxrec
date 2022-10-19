@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="8d8539e3-1497-4546-8b7e-ab94fc67ae78"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Close"
+	namespace="Konfigurator">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="DoubleClick"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="c4fc49d6-20ef-42fc-ad13-fd1d9b46efe8"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="1ce84f55-8dd6-4e15-96a5-496ee52b5a17"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title='Konfigurator']/?/?/menuitem[@accessiblename='Systemmenü']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="588ad65a-ab10-4cc1-8db9-73c577ec8129"
+	name="KonfiguratorRepository"
+	relativepath="KonfiguratorRepository.rxrep">
+		<codegen
+		classname="KonfiguratorRepository"
+		namespace="Konfigurator">
+		</codegen>
+		<rootfolder
+		id="e71fbbc8-6324-4cdd-a132-933bc9564b13"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Close.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

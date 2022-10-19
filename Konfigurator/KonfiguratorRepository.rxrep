@@ -1,0 +1,120 @@
+﻿<repository
+id="588ad65a-ab10-4cc1-8db9-73c577ec8129"
+name="KonfiguratorRepository">
+	<codegen
+	classname="KonfiguratorRepository"
+	namespace="Konfigurator">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="e71fbbc8-6324-4cdd-a132-933bc9564b13"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="d8e2174b-d9ed-4df4-9d5b-c051b79a26ef"
+		isrooted="True"
+		name="CARAT"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="tabpage,accessible"
+			capname="tabpage"
+			id="4f311918-f59d-4043-863b-1849b5f84bab"
+			name="Hersteller"
+			refimgid="6964a55b-c247-4c3b-ba99-40c3146d2d98"
+			robustPath="/form[@title>'CARAT - Kommission [3/1 /']//tabpage[@accessiblename='Hersteller']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'CARAT']/?/?/toolbar[@accessiblename=' ']/?/?/tabpage[@accessiblename='Hersteller']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="c0660434-4c59-4d68-b327-6d6d5a9f99b4"
+			name="Konfigurator"
+			refimgid="163464af-f984-4643-bddc-231cfc63df08"
+			refpath="/form[@title='CARAT - Kommission [3/1 / Kawashima]*']/element[@automationid='59398']/toolbar[@accessiblename=' ']/toolbar[@accessiblename='Hersteller']/toolbar[@accessiblename='Konfigurator']/button[@accessiblename='Konfigurator']"
+			robustPath="/form[@title>'CARAT']//button[@accessiblename='Konfigurator']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'CARAT']/?/?/toolbar[@accessiblename=' ']/toolbar[@accessiblename='Hersteller']/?/?/button[@accessiblename='Konfigurator']
+			</item>
+			<basepath>
+				/form[@title&gt;'CARAT']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGdSURBVDhPpZPLLwNRFIePlgiJFW08EwRVJBai
+Wq+i1RaJ96PilSZIvIPEI4J1bSztJdb2/giJNGHDzsIjEe/tz7lHW+0YC0zyzWRmzu+7c+eeS8Zy
+Xyixog2J5b7fwRmVJW2YSltBRS2gwmamSTBYvRyICUfgLMXd5NaBcmqRUtmBDEc/TEy6vQ9JKlzG
+kthwGBHwp4Dy6lHdM4Oziytoj4aRZZFrwwoRqM802Xqk+PrmHv7ZXTT4l9A4uiKkVXXByFPThiUr
+Jx7dMbwkAufYKijZ+jmdMAmlHpmiNixZObHAPrggAu/kJijboVusR1RQExa0T2+xoFa3WA99Aa+E
+tvAnvv7B0KII3IE1UNYfplA9MC+C7rldUJIFlGkXURzqmWY5PwXceancKHcPjyIJHhwhsBbE+HoQ
+Ext7Uaa299E5s8NL6oHRyisTEag2pXwnzLZeHB6f4JZFL2/veH59w9PLF+o4Pb+EweIGlbhiBCLh
+Vi5wgsw2uSbwCAZGXSOoe7JwQ8W09bfNpDYOqRGKXfrwu2i9GvR/29kX+gBsJLxyEDZCxgAAAABJ
+RU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="button"
+		id="a7d2c34a-5449-4661-950f-b04727986d16"
+		isrooted="True"
+		name="KonfiguratorDropDown"
+		refimgid="a413a6f2-87cd-4271-ba24-8fa7ff702fd4"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/form[@title='Konfigurator']/dom[@domain='']//button[#'dropdownMenuButton']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAEISURBVDhPY2DScQ9j0fH6z6LtQQZ2/8RAvmYw
+/seARfA/g7rLfwZlx/8MSg5gzKTphqEGhlEMYJC3+++ZXPH/wvU7/79++/7/+4+f/3/9/v0/p3nK
+f2YtdxSNcD0wBqOay/+z127/B4Gt+47/z6jr/59Q2f0/uabvv7B5EIZGGIYbwCBhAdbcPXc10Auu
+QBs9/jMDxUEYWQM6xjCga87K/0w4nIsNYzFg1VA3oHn6UpxRhg0jDFCwBxsAAmJGfv8ZJC3BhmJg
+cfP/LDqemAaw6EBc8eXrN6gxuAEodWIaABMAJWFxs/8MMtb/GWRtMDFQHGQZXD2yZnIw0AD3T0DG
+P3QJorCO138AdFG4tvN9zuQAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="menuitem"
+		id="1ce84f55-8dd6-4e15-96a5-496ee52b5a17"
+		isrooted="True"
+		name="Konfigurator_upperLeft"
+		refimgid="19f9559a-70c8-4b85-aa20-b61e545de166"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/form[@title='Konfigurator']/?/?/menuitem[@accessiblename='Systemmenü']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAEISURBVDhPY2DScQ9j0fH6z6LtQQZ2/8RAvmYw
+/seARfA/g7rLfwZlx/8MSg5gzKTphqEGhlEMYJC3+++ZXPH/wvU7/79++/7/+4+f/3/9/v0/p3nK
+f2YtdxSNcD0wBqOay/+z127/B4Gt+47/z6jr/59Q2f0/uabvv7B5EIZGGIYbwCBhAdbcPXc10Auu
+QBs9/jMDxUEYWQM6xjCga87K/0w4nIsNYzFg1VA3oHn6UpxRhg0jDFCwBxsAAmJGfv8ZJC3BhmJg
+cfP/LDqemAaw6EBc8eXrN6gxuAEodWIaABMAJWFxs/8MMtb/GWRtMDFQHGQZXD2yZnIw0AD3T0DG
+P3QJorCO138AdFG4tvN9zuQAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		capname="webdocument"
+		id="296bfdc6-7684-4eed-9bb6-f18fa038fab0"
+		isrooted="True"
+		name="KonfDOM"
+		searchtimeout="30000ms"
+		usecache="False">
+			<basepath>
+				/form[@title='Konfigurator']/dom
+			</basepath>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

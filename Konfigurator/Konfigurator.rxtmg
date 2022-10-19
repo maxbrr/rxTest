@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="Konfigurator"
+      id="63c51943-1a23-4314-99a5-49c77ba0ece7"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="Konfigurator"
+      id="63c51943-1a23-4314-99a5-49c77ba0ece7"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

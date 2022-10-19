@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="123fda98-0ce1-4b1e-8db4-4ab671e671f6"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartAUT"
+	namespace="Konfigurator">
+	</codegen>
+	<variables>
+		<var
+		id="c3fba9d4-d892-4cf3-82be-cb746ddab9b9"
+		name="StartAutProcessIDVar">
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="StartAutProcessIDVar">
+				</binding>
+			</bindings>
+			<filename>
+				C:\Carat\Carat_QS\Carat.exe
+			</filename>
+			<args>
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="588ad65a-ab10-4cc1-8db9-73c577ec8129"
+	name="KonfiguratorRepository"
+	relativepath="KonfiguratorRepository.rxrep">
+		<codegen
+		classname="KonfiguratorRepository"
+		namespace="Konfigurator">
+		</codegen>
+		<rootfolder
+		id="e71fbbc8-6324-4cdd-a132-933bc9564b13"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

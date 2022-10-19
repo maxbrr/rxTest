@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="28ed9700-954e-46e8-b075-0f3bb4e01166"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="Konfigurator">
+	</codegen>
+	<variables>
+		<var
+		id="a2a45ea2-4326-4cd8-8934-ab0ad2ac62d9"
+		name="CloseAutProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="b086a960-86c1-4649-925b-6f36fa6db4f0">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="CloseAutProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="588ad65a-ab10-4cc1-8db9-73c577ec8129"
+	name="KonfiguratorRepository"
+	relativepath="KonfiguratorRepository.rxrep">
+		<codegen
+		classname="KonfiguratorRepository"
+		namespace="Konfigurator">
+		</codegen>
+		<rootfolder
+		id="e71fbbc8-6324-4cdd-a132-933bc9564b13"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
