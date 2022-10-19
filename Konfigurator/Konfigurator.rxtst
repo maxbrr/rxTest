@@ -52,6 +52,10 @@
 				</databinding>
 			</testmodule>
 			<testcase
+			id="85d45118-81cb-4eea-a622-2d372c533ab6"
+			name="ANOTHER_TEST_CASE">
+			</testcase>
+			<testcase
 			errorbehavior="ContinueNextIteration"
 			id="ac7a5b9f-9759-4d4c-b7fa-ef17d235cdf5"
 			name="TestCase">
@@ -130,6 +134,10 @@
 							</testmodule>
 						</smartfoldernode>
 					</testcase>
+					<testcase
+					id="85d45118-81cb-4eea-a622-2d372c533ab6"
+					name="ANOTHER_TEST_CASE">
+					</testcase>
 				</testcase>
 			</testsuite>
 		</childhierarchy>
@@ -176,6 +184,9 @@
 			</testcontainer>
 			<testcontainer
 			id="6af6c97a-1522-44c4-b81d-58322914699e">
+			</testcontainer>
+			<testcontainer
+			id="85d45118-81cb-4eea-a622-2d372c533ab6">
 			</testcontainer>
 			<testcontainer
 			id="ac7a5b9f-9759-4d4c-b7fa-ef17d235cdf5">
