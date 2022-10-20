@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="b4abc3e5-9c25-4e44-b5e3-5387fb20139e"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Apply"
+	namespace="Konfigurator">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="588ad65a-ab10-4cc1-8db9-73c577ec8129"
+	name="KonfiguratorRepository"
+	relativepath="KonfiguratorRepository.rxrep">
+		<codegen
+		classname="KonfiguratorRepository"
+		namespace="Konfigurator">
+		</codegen>
+		<rootfolder
+		id="e71fbbc8-6324-4cdd-a132-933bc9564b13"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Apply.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
